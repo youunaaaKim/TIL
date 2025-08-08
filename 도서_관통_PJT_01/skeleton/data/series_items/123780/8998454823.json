@@ -1,0 +1,29 @@
+{
+    "title": "커피, 나를 위한 지식 플러스 - 커피가 궁금해? 올리에게 물어봐!",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=105944665&amp;partner=openAPI&amp;start=api",
+    "author": "졸라(Zola) (지은이), 김미선 (옮긴이)",
+    "pubDate": "2017-03-23",
+    "description": "커피의 전생과 현생은 어떤 모습일까? 자유의 미국, 격정의 이탈리아, 낭만의 프랑스, 몽환의 터키, 열정의 동남아시아… 각국의 커피 문화는? 원산지에서 만나는 커피콩 친구들, 그 특색은? 커피 입문자와 커피 마니아를 위한 커피 책이 나왔다.",
+    "isbn": "8998454823",
+    "isbn13": "9788998454821",
+    "itemId": 105944665,
+    "priceSales": 11520,
+    "priceStandard": 12800,
+    "mallType": "BOOK",
+    "stockStatus": "구판절판",
+    "mileage": 640,
+    "cover": "https://image.aladin.co.kr/product/10594/46/coversum/8998454823_1.jpg",
+    "categoryId": 53498,
+    "categoryName": "국내도서>요리/살림>술/음료/차>커피",
+    "publisher": "넥서스BOOKS",
+    "salesPoint": 130,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 9,
+    "seriesInfo": {
+        "seriesId": 123780,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=123780&amp;partner=openAPI",
+        "seriesName": "나를 위한 지식 플러스 "
+    },
+    "subInfo": {}
+}

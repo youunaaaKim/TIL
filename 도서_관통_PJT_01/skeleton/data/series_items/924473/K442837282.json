@@ -1,0 +1,29 @@
+{
+    "title": "추피가 테니스를 배워요",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=251134551&amp;partner=openAPI&amp;start=api",
+    "author": "티에리 쿠르텡 (지은이)",
+    "pubDate": "2021-11-18",
+    "description": "",
+    "isbn": "K442837282",
+    "isbn13": "9791159426810",
+    "itemId": 251134551,
+    "priceSales": 8100,
+    "priceStandard": 9000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 450,
+    "cover": "https://image.aladin.co.kr/product/25113/45/coversum/k742633179_1.jpg",
+    "categoryId": 35137,
+    "categoryName": "국내도서>유아>그림책>나라별 그림책>유럽",
+    "publisher": "무지개",
+    "salesPoint": 111,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 0,
+    "seriesInfo": {
+        "seriesId": 924473,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=924473&amp;partner=openAPI",
+        "seriesName": "추피생활동화 59"
+    },
+    "subInfo": {}
+}

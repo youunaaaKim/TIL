@@ -1,0 +1,29 @@
+{
+    "title": "좀비펫 1 - 뚱보 햄스터의 등장",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=28816219&amp;partner=openAPI&amp;start=api",
+    "author": "샘 헤이 (지은이), 사이먼 쿠퍼 (그림), 김명신 (옮긴이)",
+    "pubDate": "2013-07-18",
+    "description": "좀비펫 시리즈 1권. 조는 평범한 소년이었다. 찰리 삼촌이 선물해 준 이상한 이집트 부적에 대고 소원을 말하기 전까진 말이다. 아누비스 부적에 소원을 빈 뒤, 다짜고짜 나타난 좀비펫들은 조에게 이제 부적의 주인으로서 자신을 도와야 한다고 말하는데….",
+    "isbn": "8946419016",
+    "isbn13": "9788946419018",
+    "itemId": 28816219,
+    "priceSales": 9000,
+    "priceStandard": 10000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 500,
+    "cover": "https://image.aladin.co.kr/product/2881/62/coversum/8946419016_1.jpg",
+    "categoryId": 48877,
+    "categoryName": "국내도서>어린이>동화/명작/고전>외국창작동화",
+    "publisher": "샘터사",
+    "salesPoint": 318,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 10,
+    "seriesInfo": {
+        "seriesId": 60538,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=60538&amp;partner=openAPI",
+        "seriesName": "좀비펫 시리즈 1"
+    },
+    "subInfo": {}
+}

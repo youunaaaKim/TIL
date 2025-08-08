@@ -1,0 +1,29 @@
+{
+    "title": "불량한 자전거 여행",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=4318321&amp;partner=openAPI&amp;start=api",
+    "author": "김남중 (지은이), 허태준 (그림)",
+    "pubDate": "2009-07-28",
+    "description": "<기찻길 옆 동네>로 창비 '좋은 어린이책' 원고 공모 창작 부문 대상, <자존심>으로 2006년 '올해의 예술가상'을 받은 김남중의 장편동화. 인터넷서점 인터파크에서 연재된 작품을 책으로 엮었다. 뜨거운 여름 11박 12일 1,100킬로 자전거 여행을 떠난 사람들과 한 소년의 이야기가 로드무비처럼 전개된다.",
+    "isbn": "8936442503",
+    "isbn13": "9788936442507",
+    "itemId": 4318321,
+    "priceSales": 10800,
+    "priceStandard": 12000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 600,
+    "cover": "https://image.aladin.co.kr/product/431/83/coversum/8936442503_3.jpg",
+    "categoryId": 48874,
+    "categoryName": "국내도서>어린이>동화/명작/고전>국내창작동화",
+    "publisher": "창비",
+    "salesPoint": 33627,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 10,
+    "seriesInfo": {
+        "seriesId": 5068,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=5068&amp;partner=openAPI",
+        "seriesName": "창비아동문고 250"
+    },
+    "subInfo": {}
+}

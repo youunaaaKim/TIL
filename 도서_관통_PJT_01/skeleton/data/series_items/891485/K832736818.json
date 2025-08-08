@@ -1,0 +1,29 @@
+{
+    "title": "색깔 찾아 세계 여행",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=257908031&amp;partner=openAPI&amp;start=api",
+    "author": "벤 러윌 (지은이), 알레트 스트라토프 (그림), 김은재 (옮긴이)",
+    "pubDate": "2020-12-21",
+    "description": "다른 나라에 대한 호기심을 자극하는 그림책이다. 작가 벤 러윌은 세계 여러 나라를 여행하며 느꼈던 경험을 통해 서로 다른 모습으로 살고 있지만, 하나뿐인 지구에서 모두 함께 살고 있다는 점을 강조한다.",
+    "isbn": "K832736818",
+    "isbn13": "9791190554541",
+    "itemId": 257908031,
+    "priceSales": 10800,
+    "priceStandard": 12000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 600,
+    "cover": "https://image.aladin.co.kr/product/25790/80/coversum/k832736818_1.jpg",
+    "categoryId": 35137,
+    "categoryName": "국내도서>유아>그림책>나라별 그림책>유럽",
+    "publisher": "에듀앤테크",
+    "salesPoint": 202,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 10,
+    "seriesInfo": {
+        "seriesId": 891485,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=891485&amp;partner=openAPI",
+        "seriesName": "생각말랑 그림책 "
+    },
+    "subInfo": {}
+}

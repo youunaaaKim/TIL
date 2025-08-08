@@ -1,0 +1,29 @@
+{
+    "title": "MAPL 마플교과서 공통수학 1 (2025년) - 2022 개정 교육과정, 핵심 단권화 수학개념서",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=347637200&amp;partner=openAPI&amp;start=api",
+    "author": "임정선 (지은이)",
+    "pubDate": "2024-10-02",
+    "description": "개념서와 문제집이 한 권으로 이루어진 단권화 교재이다. 반복적인 문제의 흐름으로 구성하였고, 확인, 변형, 발전문제의 심화된 고난도 문제를 통해 수학의 힘을 길러준다. 학교 내신뿐만 아니라 전국연합모의고사 대비, 평가원모의고사 및 수능을 대비할 수 있다.",
+    "isbn": "K652933925",
+    "isbn13": "9791193575079",
+    "itemId": 347637200,
+    "priceSales": 22500,
+    "priceStandard": 25000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 1250,
+    "cover": "https://image.aladin.co.kr/product/34763/72/coversum/k652933925_1.jpg",
+    "categoryId": 131522,
+    "categoryName": "국내도서>고등학교참고서>고등-문제집>수학영역",
+    "publisher": "희망에듀",
+    "salesPoint": 14455,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 0,
+    "seriesInfo": {
+        "seriesId": 1211242,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=1211242&amp;partner=openAPI",
+        "seriesName": "마플교과서 수학개념서 (2025년) "
+    },
+    "subInfo": {}
+}

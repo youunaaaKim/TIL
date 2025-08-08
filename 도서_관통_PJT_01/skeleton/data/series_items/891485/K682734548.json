@@ -1,0 +1,29 @@
+{
+    "title": "가을에는 모두 바쁜가 봐",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=281022523&amp;partner=openAPI&amp;start=api",
+    "author": "줄리아나 그레고리 (지은이), 김은재 (옮긴이)",
+    "pubDate": "2021-10-15",
+    "description": "가을을 처음 맞는 두더지 릴리와 함께 가을을 느낄 수 있는 그림책이다. 겨울나기를 준비하는 다람쥐, 고슴도치, 청둥오리, 오소리 등 릴리의 친구들을 통해 동물들이 가을에 어떤 준비를 하는지 알려 준다.",
+    "isbn": "K682734548",
+    "isbn13": "9791167290151",
+    "itemId": 281022523,
+    "priceSales": 10800,
+    "priceStandard": 12000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 600,
+    "cover": "https://image.aladin.co.kr/product/28102/25/coversum/k682734548_1.jpg",
+    "categoryId": 35137,
+    "categoryName": "국내도서>유아>그림책>나라별 그림책>유럽",
+    "publisher": "에듀앤테크",
+    "salesPoint": 409,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 10,
+    "seriesInfo": {
+        "seriesId": 891485,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=891485&amp;partner=openAPI",
+        "seriesName": "생각말랑 그림책 "
+    },
+    "subInfo": {}
+}

@@ -1,0 +1,29 @@
+{
+    "title": "맥주, 나를 위한 지식 플러스 - 맥덕기자의 맥주, 어디까지 마셔봤니?",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=161512546&amp;partner=openAPI&amp;start=api",
+    "author": "심현희 (지은이)",
+    "pubDate": "2018-08-10",
+    "description": "맥주 초보자와 맥주 덕후, 맥주 마니아를 위한 맥주 책. 맥주는 어떻게 만들어질까? 기본적인 궁금증부터 마시는 빵 ‘맥주’ 탄생하기까지 맥주의 역사 등 맥주에 대한 기초지식, 라거와 에일 스타일별로 알아보는 맥주의 종류와 영국, 미국, 독일, 벨기에 등 세계 맥주 이야기까지 담았다.",
+    "isbn": "K342533943",
+    "isbn13": "9791161654522",
+    "itemId": 161512546,
+    "priceSales": 12420,
+    "priceStandard": 13800,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 690,
+    "cover": "https://image.aladin.co.kr/product/16151/25/coversum/k342533943_1.jpg",
+    "categoryId": 53496,
+    "categoryName": "국내도서>요리/살림>술/음료/차>술",
+    "publisher": "넥서스BOOKS",
+    "salesPoint": 241,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 9,
+    "seriesInfo": {
+        "seriesId": 123780,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=123780&amp;partner=openAPI",
+        "seriesName": "나를 위한 지식 플러스 "
+    },
+    "subInfo": {}
+}

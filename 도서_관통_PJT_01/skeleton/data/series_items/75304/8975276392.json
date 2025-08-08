@@ -1,0 +1,29 @@
+{
+    "title": "옷장에서 나온 인문학 - 작은 옷에 숨은 큰 이야기",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=39186270&amp;partner=openAPI&amp;start=api",
+    "author": "이민정 (지은이)",
+    "pubDate": "2014-04-03",
+    "description": "'푸른들녘 인문교양' 시리즈. 첫 번째로 소개되는 주제는 '옷'이다. 부제가 가리키듯이 '옷'이라는 작은 사물 속에는 우리가 미처 몰랐던거나 어렴풋이 알면서도 간과해왔던 큰 이야기들이 가득 들어 있다.",
+    "isbn": "8975276392",
+    "isbn13": "9788975276392",
+    "itemId": 39186270,
+    "priceSales": 13500,
+    "priceStandard": 15000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 750,
+    "cover": "https://image.aladin.co.kr/product/3918/62/coversum/8975276392_1.jpg",
+    "categoryId": 1142,
+    "categoryName": "국내도서>청소년>청소년 인문/사회",
+    "publisher": "들녘",
+    "salesPoint": 2999,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 9,
+    "seriesInfo": {
+        "seriesId": 75304,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=75304&amp;partner=openAPI",
+        "seriesName": "푸른들녘 인문교양 1"
+    },
+    "subInfo": {}
+}

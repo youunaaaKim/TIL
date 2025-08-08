@@ -1,0 +1,29 @@
+{
+    "title": "햄스터를 부탁해!",
+    "link": "http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=294942284&amp;partner=openAPI&amp;start=api",
+    "author": "트레이시 거너러트남 (지은이), 한나 마크스 (그림), 김애나 (옮긴이)",
+    "pubDate": "2019-05-01",
+    "description": "",
+    "isbn": "K382837947",
+    "isbn13": "9791157581139",
+    "itemId": 294942284,
+    "priceSales": 9000,
+    "priceStandard": 10000,
+    "mallType": "BOOK",
+    "stockStatus": "",
+    "mileage": 500,
+    "cover": "https://image.aladin.co.kr/product/29494/22/coversum/k382837947_1.jpg",
+    "categoryId": 35140,
+    "categoryName": "국내도서>유아>그림책>나라별 그림책>외국 그림책",
+    "publisher": "다담교육",
+    "salesPoint": 11,
+    "adult": false,
+    "fixedPrice": true,
+    "customerReviewRank": 0,
+    "seriesInfo": {
+        "seriesId": 1040479,
+        "seriesLink": "http://www.aladin.co.kr/shop/common/wseriesitem.aspx?SRID=1040479&amp;partner=openAPI",
+        "seriesName": "디베르 시리즈 "
+    },
+    "subInfo": {}
+}
