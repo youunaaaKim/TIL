@@ -12,6 +12,7 @@ for tc in range(1, T+1):
     #print(arr)
 
     for r in range(N):
+<<<<<<< HEAD
         for c in range(N):
             if arr[r][c] != 2:
                 continue
@@ -41,6 +42,23 @@ for tc in range(1, T+1):
                         break
 
     #print(arr)
+=======
+        for c in range(N): # 처음에 베열을 돌면서
+            if arr[r][c] == 2:  # 괴물 발견함
+                for i in range(4):  # 괴물을 만났을 때 4방향으로 퍼뜨리기
+                    nr = r + dr[i]
+                    nc = c + dc[i]
+
+                    while 0 <= nr < N and 0 <= nc < N:
+                        if arr[nr][nc] == 1:  # 벽이면 stop
+                            break
+                        if arr[nr][nc] == 0:
+                            arr[nr][nc] = 1
+                        nr += dr[i]
+                        nc += dc[i]
+
+    print(arr)
+>>>>>>> f9ab00f1db32f359bde93e3036e62a105fa3e5ba
         # 살아남은 0의 개수 세기
     safe_count = sum(row.count(0) for row in arr)
     print(f'#{tc} {safe_count}')
