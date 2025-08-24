@@ -1,41 +1,47 @@
+# 위에서부터 흰색(W) 구간, 파란색(B) 구간, 빨간색(R) 구간이 각각 최소 한 줄 이상 존재해야 함
+
 import sys
 sys.stdin = open('4613_russianflag_input.txt')
-'''
-‘W’는 흰색, ‘B’는 파란색, ‘R’은 빨간색
-위에서 몇 줄(한 줄 이상)은 모두 흰색으로 칠해져 있어야 한다.
-다음 몇 줄(한 줄 이상)은 모두 파란색으로 칠해져 있어야 한다.
-나머지 줄(한 줄 이상)은 모두 빨간색으로 칠해져 있어야 한다.
-러시아 국기 같은 깃발을 만들기 위해서 새로 칠해야 하는 칸의 개수의 최솟값을 구하여라.
+T = int(input())  # 테스트 케이스 개수 입력
 
-[시나리오]
-흠 일단 모르겠음
-새로 칠해야 하는 칸의 최솟값???
-몇 줄 이상????
-최적화를 내가 어떻게 할 수 있는데ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 걍 눈물 질질 
-
-첫 줄은 흰 색 => r = 0
-두 번째 줄 부턴 모름 
-
-그 다음 줄은 파란색 range(r, N-r)
-두 번째 줄 부턴 모름
-
-나머진 빨간색
-
-여기서 최솟값,,,,,,,,,,,,,
-줄에 색을 기준으로 정할 듯 첫 번째 줄은 무조건 고정색인데, 
-두 번째 줄 부터 과반수 색 기준으로 할 듯
-
-'''
-
-T = int(input())
-#print(T)
 for tc in range(1, T + 1):
-    N, M = input().split()
-    N = int(N)
-    M = int(M)
-    # print(N)
-    # print(M)
-    arr = [list(map(str, input().strip())) for _ in range(N)]
-    print(arr)
+    N, M = map(int, input().split())  # N: 행의 개수 (깃발 높이), M: 열의 개수 (깃발 너비)
+    arr = [list(input().strip()) for _ in range(N)]
 
+    min_count = float('inf')  # 다시 칠해야 하는 최솟값
+    best_arr = []  # 가장 적게 칠한 상태의 깃발 배열을 저장할 변수
 
+    # 0 -> 3 전 줄 까지 흰색 가능 W
+    # w + 1 부터 2전 줄 까지 파란색 가능 B
+    # R 은 나머지
+
+    # 가장 적은 칸을 바꾸는 조합 탐색
+    # 흰색 구간 w는 0부터 최대 len(N-3)까지 가능
+    for w in range(N - 2):
+        # 파란색 b는 w+1부터 최대 len(N-2)까지 가능
+        for b in range(w + 1, N - 1):
+            count = 0  # 현재 조합(w, b)에서 칠해야 할 칸 수
+
+            # 흰색 줄 : 0번 줄 ~ w번
+            for row in range(0, w + 1):
+                for col in range(M):
+                    if arr[row][col] != 'W':  # 흰색이 아닌 경우
+                        count += 1  # 다시 칠해야 하므로 +1
+
+            # 파란색 줄 : w+1번 줄 - b번 줄
+            for row in range(w + 1, b + 1):
+                for col in range(M):
+                    if arr[row][col] != 'B':  # 파란색이 아닌 경우
+                        count += 1  # 다시 칠해야 하므로 +1
+
+            # 빨간색 줄 : b+1번 줄 - N 줄
+            for row in range(b + 1, N):
+                for col in range(M):
+                    if arr[row][col] != 'R':  # 빨간색이 아닌 경우
+                        count += 1  # 다시 칠해야 하므로 +1
+
+            # 지금까지 구한 count 값이 현재까지의 최소값보다 작다면
+            if count < min_count:
+                min_count = count       # 최솟값 갱신
+
+    print(f"#{tc} {min_count}")
