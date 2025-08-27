@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마진 상쇄 예시</title>
+  <style>
+    /*
+      마진 상쇄 (Margin Collapsing) 현상 이해하기
+
+      - 인접한 두 블록 요소의 상하 마진이 겹칠 때, 더 큰 값의 마진 하나만 적용되는 현상입니다.
+      - 이 예제에서는 Box 1의 아래 마진(50px)과 Box 2의 위 마진(30px)이 겹칩니다.
+      - 따라서 두 박스 사이의 최종 간격은 50px + 30px = 80px가 아니라,
+        두 값 중 더 큰 값인 50px가 됩니다.
+    */
+    .box {
+      width: 200px;
+      height: 100px;
+      background-color: crimson;
+    }
+
+    .mb-50 {
+      /* 아래쪽 마진(margin-bottom)을 50px로 설정 */
+      margin-bottom: 50px;
+    }
+
+    .mt-30 {
+      /* 위쪽 마진(margin-top)을 30px로 설정 */
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box mb-50">Box 1</div>
+
+  <div class="box mt-30">Box 2</div>
+
+</body>
+
+</html>

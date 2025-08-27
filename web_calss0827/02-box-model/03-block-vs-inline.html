@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Block vs. Inline 예시</title>
+  <style>
+    /* 모든 div 요소에 적용 (Block 타입) */
+    div {
+      background-color: lightblue;
+      border: 2px solid blue;
+      padding: 15px;
+      margin: 10px;
+    }
+
+    /* 모든 span 요소에 적용 (Inline 타입) */
+    span {
+      background-color: lightcoral;
+      border: 2px solid red;
+      padding: 10px;
+      margin: 30px;
+      /* 상하 마진은 다른 요소를 밀어내지 못함 */
+    }
+
+    /* width 속성 비교를 위한 div */
+    .custom-width {
+      width: 300px;
+      /* block 타입은 width 지정 가능 */
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Block 타입 예시 (div)</h2>
+  <div>
+    첫 번째 div 블록입니다. width를 지정하지 않으면, <strong>한 줄 전체 너비</strong>를 차지합니다.
+  </div>
+  <div class="custom-width">
+    두 번째 div 블록입니다. <strong>width를 300px로 지정</strong>했습니다. 블록 요소는 너비 지정이 가능합니다.
+  </div>
+  <div>
+    세 번째 div 블록입니다. block 요소들은 <strong>자동으로 줄바꿈</strong>이 됩니다.
+  </div>
+
+  <hr>
+
+  <h2>Inline 타입 예시 (span)</h2>
+  <p>
+    문장 속에서
+    <span>첫 번째 span</span>
+    처럼 흐름에 따라 자연스럽게 배치됩니다.
+    <span>두 번째 span</span>
+    처럼 줄바꿈 없이 이어지며, <strong>자신의 내용만큼만 공간을 차지</strong>합니다.
+    span에 적용된 상하 여백(margin)은 다른 줄에 영향을 주지 못하는 것을 확인해 보세요.
+  </p>
+
+</body>
+
+</html>
