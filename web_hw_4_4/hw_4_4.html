@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- HTML5 문서 형식 선언 -->
+
+<html lang="en">
+<!-- 문서의 주 언어는 영어 -->
+
+<head>
+  <meta charset="UTF-8">
+  <!-- 문자 인코딩을 UTF-8로 설정 (한글 포함 모든 문자 정상 표시) -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 반응형 웹을 위한 설정: 모바일에서도 화면이 잘 보이게 함 -->
+
+  <title>소셜 커머스 과제</title>
+  <!-- 브라우저 탭에 표시될 문서 제목 -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap 5 CSS 파일을 외부에서 불러옴 (디자인과 레이아웃을 쉽게 만들기 위해 사용) -->
+
+  <style>
+    .card-img-top {
+      width: 200;
+    }
+    .sidebar {
+      width: 200px;
+      position: absolute;      /* 화면에 고정 */
+      top: 100px;            /* 상단에서 100px 아래 위치 */
+      right: 20px;           /* 오른쪽 끝에서 20px 떨어진 곳에 배치 */
+      padding: 10px;         /* 내부 여백 */
+    }
+    /* 이미지 높이를 고정하고 비율이 깨지지 않게 자르기 설정 */
+  </style>
+</head>
+
+<body>
+  <div class="container my-5">
+    <!-- 전체 내용 감싸는 컨테이너 (양 옆 여백 포함) / my-5는 상하 여백 -->
+    
+    <!-- 📌 주요 상품 영역 시작 -->
+    <h2 class="text-left">주목 상품</h2>
+    <!-- 제목 가운데 정렬 -->
+      <div class="row col-12 col-md-4 mb-3">
+        <!-- col-12: 모바일에서 한 줄 전체 / col-md-4: 992px 이상에서 가로 3개로 배치 / mb-3: 아래 여백 -->
+          <!-- 카드 박스 시작 -->
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product1.jpg" class="card-img-top" alt="상품1 이미지">
+          <!-- 카드 상단에 이미지 삽입 / alt는 이미지 없을 때 표시될 대체 텍스트 -->
+            <!-- 카드 내부 설명 영역 -->
+            <h5>상품 1</h5>
+            <!-- 카드 제목 -->
+             </div>
+            <p class="card-text">상품 설명입니다.</p>
+            <!-- 카드 설명 -->
+          
+      <div class="row col-12 col-md-4 mb-3">
+        <!-- 두 번째 카드 -->
+      <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product2.jpg" class="card-img-top" alt="상품2 이미지">
+      <h5>상품 2</h5>
+      </div>
+      <p class="card-text">상품 설명입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ.</p>
+        
+      <div class="row col-12 col-md-4 mb-3">
+        <!-- 세 번째 카드 -->
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product3.jpg" class="card-img-top" alt="상품3 이미지">
+            <h5>상품 3</h5>
+            </div>
+            <p class="card-text">상품 설명입니다</p>
+    <div class="container">
+      
+      
+      <!-- row 시작 / d-none d-md-flex: 992px 미만에서는 숨기고, 992px 이상에서는 flex로 보이게 -->
+
+      <aside class="sidebar box">
+      <h2>카테고리</h2>
+      <ul>
+        <li>카테고리 1</li>
+        <li>카테고리 2</li>
+        <li>카테고리 3</li>
+        <li>카테고리 4</li>
+      </ul>
+    </div>
+          
+    <!-- 주요 상품 row 끝 -->
+
+    <div class="container ">
+      <!-- 이벤트 영역 줄 시작 -->
+       <div class="d-flex flex-wrap justify-content-between">
+       <div class=" card-fixed col-12 col-sm-6 col-md-3 mb-3 m-2">
+        <div class="bg-white-subtle p-3 text-center"><h5>인기 상품</h5></div>
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product2.jpg" class="card-img-top" alt="상품2 이미지">
+          <h5>상품 5</h5>
+          <p class="card-text">상품 설명입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ.</p>
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product2.jpg" class="card-img-top" alt="상품2 이미지">
+          <h5>상품 6</h5>
+          <p class="card-text">상품 설명입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ.</p>
+      </div>
+      <div class=" card-fixed col-12 col-sm-6 col-md-3 mb-3 m-2">
+        <div class="bg-white-subtle p-3 text-center"><h5>신 상품</h5></div>
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product2.jpg" class="card-img-top" alt="상품2 이미지">
+          <h5>상품 5</h5>
+          <p class="card-text">상품 설명입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ.</p>
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product2.jpg" class="card-img-top" alt="상품2 이미지">
+          <h5>상품 6</h5>
+          <p class="card-text">상품 설명입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ.</p>
+      </div>
+
+      <div class=" card-fixed col-12 col-sm-6 col-md-3 mb-3 m-2">
+        <div class="bg-white-subtle p-3 text-center"><h5>특별 할인</h5></div>
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product2.jpg" class="card-img-top" alt="상품2 이미지">
+          <h5>상품 6</h5>
+          <p class="card-text">상품 설명입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ.</p>
+          <img src="C:\Users\SSAFY\Desktop\prac\web_hw_4_4\assets\product2.jpg" class="card-img-top" alt="상품2 이미지">
+          <h5>상품 6</h5>
+          <p class="card-text">상품 설명입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ.</p>
+      </div>
+    </div>
+    </div>
+    <!-- 이벤트 row 끝 -->
+  </div>
+  <!-- 전체 container 끝 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap에서 모달이나 드롭다운 등 동작이 필요한 요소들을 위해 JS 파일 포함 -->
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!-- 제가 오늘 배운 것 바탕으로 과제 푼 이후 지피티한테 모든 코드에 주석 달아달라고 한 것입니다,,! 혹시 몰라 말씀드려요 -->
+
+<!DOCTYPE html>
+<!-- HTML5 문서임을 선언 -->
+
+<html lang="en">
+<!-- 문서의 언어를 영어(en)로 설정 -->
+
+<head>
+  <meta charset="UTF-8">
+  <!-- 문자 인코딩을 UTF-8로 설정하여 한글이나 특수문자도 올바르게 표시 -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    반응형 웹사이트 구현을 위한 필수 메타 태그
+    - width=device-width: 디바이스 화면 너비에 맞춤
+    - initial-scale=1.0: 페이지 처음 로딩 시 확대/축소 비율 설정
+  -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- 
+    Bootstrap 5.3.8 CSS를 CDN에서 불러옴
+    - Bootstrap의 레이아웃, 버튼, 카드 등 다양한 UI 요소를 사용할 수 있게 함
+    - integrity는 보안 관련 설정
+  -->
+
+  <style>
+    .card {
+      width: 300px;
+      /* 카드의 고정 너비를 300px로 지정 */
+      margin: 15px auto;
+      /* 카드 위아래 15px, 좌우 중앙 정렬 */
+    }
+  </style>
+  <!-- 
+    사용자 정의 CSS 스타일
+    - 모든 .card 요소에 동일한 너비와 여백을 부여
+    - 반응형 레이아웃을 만들기 위해 고정 너비가 필요
+  -->
+
+</head>
+
+<body>
+  <h2 class="text-center">도서 구매 서비스</h2>
+  <!-- 
+    제목을 중앙 정렬 (text-center)
+    - Bootstrap의 텍스트 유틸리티 클래스 사용
+  -->
+
+  <div class="container">
+    <!-- 
+      Bootstrap 컨테이너: 콘텐츠를 정렬하고 좌우에 여백을 줌
+      - 반응형 레이아웃에 필수
+    -->
+
+    <div class="d-flex flex-wrap justify-content-center">
+      <!-- 
+        d-flex: Flexbox 레이아웃을 활성화
+        flex-wrap: 줄 바꿈을 허용 (카드가 한 줄에 다 안 들어가면 자동 줄바꿈)
+        justify-content-center: 카드들을 수평 가운데 정렬
+      -->
+
+      <!-- 카드 1 -->
+      <div class="card card-fixed m-2">
+        <!-- 
+          카드 요소 시작
+          m-2: Bootstrap 마진 유틸리티로 카드 간 간격을 설정 (상하좌우 모두 margin 0.5rem)
+        -->
+        <div>
+          <img src="book1.jpg" class="card-img-top img-fluid" alt="샘플 이미지">
+          <!-- 
+            책 이미지
+            - card-img-top: 카드 상단에 이미지를 배치
+            - img-fluid: 반응형 이미지 (부모 요소 너비에 맞춰 조절)
+            - alt: 이미지가 없을 때 표시되는 대체 텍스트
+          -->
+        </div>
+        <div class="card-body">
+          <!-- 카드 본문 (텍스트 영역) -->
+          <h5 class="card-title">책 제목 1</h5>
+          <!-- 카드 제목 (작은 제목 스타일) -->
+          <p class="card-text">책 설명이 여기에 들어갑니다.</p>
+          <!-- 카드 본문 설명 텍스트 -->
+
+          <!-- 구매하기 버튼 -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            구매하기
+          </button>
+          <!-- 
+            Bootstrap 버튼
+            - btn: 버튼 기본 스타일
+            - btn-primary: 파란색 버튼
+            - data-bs-toggle="modal": 클릭 시 모달 창 띄움
+            - data-bs-target="#exampleModal": 연결할 모달 ID 지정
+            ❗️ 현재 #exampleModal은 문서에 없음 → 버튼 클릭해도 모달이 안 뜸
+          -->
+        </div>
+      </div>
+
+      <!-- 카드 2 (내용 동일) -->
+      <div class="card card-fixed m-2">
+        <div>
+          <img src="book1.jpg" class="card-img-top img-fluid" alt="샘플 이미지">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">책 제목 2</h5>
+          <p class="card-text">책 설명이 여기에 들어갑니다.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            구매하기
+          </button>
+        </div>
+      </div>
+
+      <!-- 카드 3 -->
+      <div class="card card-fixed m-2">
+        <div>
+          <img src="book1.jpg" class="card-img-top img-fluid" alt="샘플 이미지">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">책 제목 3</h5>
+          <p class="card-text">책 설명이 여기에 들어갑니다.</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            구매하기
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <!-- 카드 묶음 (.d-flex) 끝 -->
+  </div>
+  <!-- .container 끝 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous">
+  </script>
+  <!-- 
+    Bootstrap JavaScript 번들 (필수 기능 활성화용)
+    - 모달, 드롭다운 등 동작시키려면 이 스크립트가 필요함
+    - Popper.js도 포함됨
+  -->
+
+</body>
+
+</html>
