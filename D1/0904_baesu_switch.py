@@ -9,8 +9,9 @@ import sys
 배열을 돌면서 Y를 발견하면, 발견한 위치부터 끝까지의 스위치 조작하기 
 끝까지 돌았으면 모두 Y인지 확인하고 스위치 조작한 횟수 출력하기
 '''
-
-bulb = list(sys.stdin.readline().strip()) # 전구의 배열 받기
+sys.stdin = open("baesu.txt")
+bulb = list(input())
+# bulb = list(sys.stdin.readline().strip()) # 전구의 배열 받기
 N = len(bulb) # 받은 배열의 크기
 count = 0 # 스위치를 조작한 횟수
 
@@ -23,7 +24,7 @@ for i in range(N): # i가 전구의 배열을 돌면서
             if bulb[j] == 'Y': # Y면 N으로 바꾸고, N이면 Y로 바꾸기
                 bulb[j] = 'N'
             else:
-                'Y'
+                bulb[j] = 'Y'
         count += 1  # 스위치를 누른 횟수만 카운트
 
 # 최종 스위치 배열에서 모두 불이 꺼졌는지 확인하고, 횟수를 출력하는 if 문
