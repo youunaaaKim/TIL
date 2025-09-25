@@ -1,44 +1,49 @@
 import sys
-from collections import deque
+import heapq
 
-sys.stdin = open('1244_input.txt')
+sys.stdin = open('input.txt')
 
-def bfs(number, change):
-    visited = set()
-    q = deque()
+dr = [-1, 1, 0, 0]
+dc = [0, 0, -1, 1]
 
-    start = ''.join(number)
-    q.append((start, change))
-    visited.add((start, change))
+def dijstra(N, grid):
+    costs = [[float('inf')] * N for _ in range(N)]
 
-    max_val = 0
+    pq = [(0,0,0)]
+    costs[0][0] = 0
 
-    while q:
-        current, cnt = q.popleft()
+    while pq:
+        cost, r, c = heapq.heappop(pq)
 
-        if cnt == 0:
-            max_val = max(max_val, int(current))
+        if cost > costs[r][c]:
             continue
+        for i in range(4):
+            nr, nc = r+dr[i], c+dc[i]
+            if 0<= nr < N and 0<= nc < N:
+                new_cost = cost + grid[nr][nc]
 
-        current_list = list(current) # 이해 안됨
-        n = len(current_list)
-        for i in range(n):
-            for j in range(1+i, n):
-                current_list[i], current_list[j] = current_list[j], current_list[i]
-                new_num = "".join(current_list)
-                state = (new_num, cnt - 1)  # 새로운 상태 (숫자판, 남은 교환횟수)
+                if new_cost < costs[nr][nc]:
+                    costs[nr][nc] = new_cost
+                    heapq.heappush(pq, (new_cost, nr, nc))
+    return costs[N-1][N-1]
 
-                if state not in visited:
-                    visited.add(state)
-                    q.append(state)
-                    # 원상복구 (다음 swap을 위해 다시 돌려놓기)
-                    current_list[i], current_list[j] = current_list[j], current_list[i]
 
-                return max_val
 
-            T = int(input())
-            for tc in range(1, 1 + T):
-                number, change = map(int, input().split())
-                number = list(str(number))  # 숫자를 리스트로 변환 (교환 쉽게 하기 위해)
-                answer = bfs(number, change)
-                print(f"#{tc} {answer}")
+
+
+
+
+
+
+
+
+
+
+
+
+T = int(input())
+for tc in range(1, T + 1):
+    N = int(input())
+    data = [list(map(int, list(input()))) for _ in range(N)]
+    result = dijstra(N, data)
+    print(f'#{tc} {result}')
