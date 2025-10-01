@@ -13,5 +13,10 @@ for t in range(1, T+1):
         i = i - 1
 
         for n in range(1, j+1):
-            if n-1 >=0 and n+1 < N:
-                if arr[]
+            if i-n >= 0 and i+n < N:
+                if arr[i-n] == arr[i+n]:
+                    arr[i-n] = 1 - arr[i-n]
+                    arr[i+n] = 1 - arr[i+n]
+
+    print(f"#{t}", end=" ")
+    print(*arr)
